@@ -21,7 +21,7 @@ namespace net_core_api.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "value world";
         }
 
         // POST api/values
